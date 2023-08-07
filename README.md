@@ -1,5 +1,6 @@
 # kfont
 
+[![GoCI](https://github.com/xuender/kfont/workflows/Go/badge.svg)](https://github.com/xuender/kfont/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/xuender/kfont)](https://goreportcard.com/report/github.com/xuender/kfont)
 
 商用免费字体
@@ -22,9 +23,9 @@
 ## User
 
 ```go
-import "github.com/xuender/kfont/founder/htjt"
+import "github.com/xuender/kfont/tsanger/ym"
 
-font := htjt.Font()
+font := ym.Font()
 ```
 
 ## License
