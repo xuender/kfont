@@ -8,11 +8,11 @@ import (
 )
 
 //go:embed FangZhengShuSongFanTi-1.ttf
-var _font []byte
+var Bytes []byte
 
 // Font 方正书宋繁体.
 func Font() *opentype.Font {
-	font, _ := opentype.Parse(_font)
+	font, _ := opentype.Parse(Bytes)
 
 	return font
 }

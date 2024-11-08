@@ -8,11 +8,11 @@ import (
 )
 
 //go:embed PangMenZhengDaoXiXianTi-2.ttf
-var _font []byte
+var Bytes []byte
 
 // Font 旁门正道细线体.
 func Font() *opentype.Font {
-	font, _ := opentype.Parse(_font)
+	font, _ := opentype.Parse(Bytes)
 
 	return font
 }
